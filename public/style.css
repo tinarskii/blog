@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab&display=swap');
+
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 3em 0 1em;
+  font-family: 'Roboto Slab', serif;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+figcaption {
+  color: #5a5a5a;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+.blog-container {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  justify-content: space-between;
+  max-height: 20vh;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-container:hover {
+  transform: translateY(-5px);
+}
+
+.blog-title span {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1;
+  font-family: 'Roboto Slab', serif;
+}
+
+.blog-title {
+  max-width: 300px;
+  max-height: 200px;
+  align-self: end;
+}
+
+.blog-title p {
+  font-size: 0.8em;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.411);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:pre
+}
+
+.blog-image {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.blog-image img {
+  width: auto;
+  height: 200px;
+}
+
+img {
+  height: auto;
+  width: 68.4ch;
+}
+
+.blog-image {
+  border-radius: 10px;
+}
+
+.blog-image img {
+  transition: all .2s ease;
+  vertical-align: middle;
+  filter: blur(5px);
+}
+
+.blog-container:hover img {
+  transform:scale(1.5);
+    filter: blur(0px);
+}
+
+button {
+  background-color: #4CAF50; 
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+a.a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+
+a.a:hover {
+  text-decoration: underline;
+}
